@@ -1,20 +1,20 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { add } from '../redux/CartSlice';
-import { fetchProduct } from '../redux/ProductSlice';
+// import { fetchProduct } from '../redux/ProductSlice';
 
 const Card = () => {
-    const state = useSelector((state) => state.product.data)
     
     const dispatch = useDispatch();
-
-    useEffect(() => {
-        dispatch(fetchProduct())
-    }, [])
+    const state = useSelector((state) => state.product.data)
 
     const handlerAdd = (product) => {
         dispatch(add(product))
     }
+
+    useEffect(() => {
+        // dispatch(fetchProduct())
+    }, [])
  
   return (
       <div className="productCard" style={{marginTop: '100px'}}>
