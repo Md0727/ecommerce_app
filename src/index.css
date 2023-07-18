@@ -39,6 +39,11 @@ code {
   font-weight: bold;
   font-size: 18px;
   margin-bottom: 5px;
+  display: -webkit-box;
+   -webkit-line-clamp: 1;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+   text-overflow: ellipsis;
 }
 
 /* Product price */
@@ -51,6 +56,12 @@ code {
 /* Product description */
 .product-description {
   margin-bottom: 10px;
+  display: -webkit-box;
+   -webkit-line-clamp: 3;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+   text-overflow: ellipsis;
+  
 }
 
 /* Add to cart button */

@@ -24,7 +24,7 @@ const Card = () => {
                     state.length === 0 ? "Loadding.." : 
 
                     state.map((items, index) => (
-                        <div className="col-12 col-md-4" key={index}>
+                        <div className="col-12 col-md-4 mb-4" key={index}>
                             <div className="product-card">
                                 <img className="product-image" src={items.image} alt={'Product 1'} />
                                 <h2 className="product-title">{items.title}</h2>
