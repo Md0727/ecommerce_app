@@ -28,7 +28,7 @@ const CartList = () => {
                 totalPrice += products.price;
 
                 return <li className="cart-item" key={index}>
-                  <img src={products.image} alt={"Product 1"} />
+                  <img src={products.image} alt={"Product 1 text"} />
                   <div className="cart-item-details">
                     <p className="cart-item-name">{products.title}</p>
                     <p className="cart-item-price">${products.price}</p>
