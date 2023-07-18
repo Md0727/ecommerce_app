@@ -11,3 +11,150 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.position-sticky1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+/* Product card container */
+.product-card {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Product image */
+.product-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+/* Product title */
+.product-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/* Product price */
+.product-price {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Product description */
+.product-description {
+  margin-bottom: 10px;
+}
+
+/* Add to cart button */
+.add-to-cart-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Add to cart button hover */
+.add-to-cart-button:hover {
+  background-color: #0056b3;
+}
+/* Cart container */
+.cart-container {
+  width: 100%;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Cart title */
+.cart-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Cart items */
+.cart-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Cart item */
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Cart item image */
+.cart-item img {
+  max-width: 40px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+/* Cart item details */
+.cart-item-details {
+  flex-grow: 1;
+}
+
+/* Cart item name */
+.cart-item-name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/* Cart item price */
+.cart-item-price {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Cart total */
+.cart-total {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: right;
+}
+
+/* Checkout button */
+.checkout-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Checkout button hover */
+.checkout-button:hover {
+  background-color: #0056b3;
+}
